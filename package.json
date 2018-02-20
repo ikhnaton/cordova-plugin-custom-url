@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-custom-url",
+  "version": "0.0.1",
+  "description": "Plugin to pass a value when",
+  "cordova": {
+    "id": "cordova-plugin-custom-url",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikhnaton/cordova-plugin-custom-url.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "custom",
+    "url",
+    "scheme"
+  ],
+  "author": "ikhnaton@techie.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikhnaton/cordova-plugin-custom-url/issues"
+  },
+  "homepage": "https://github.com/ikhnaton/cordova-plugin-custom-url#readme"
+}

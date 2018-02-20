@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-custom-url" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-custom-url</name>
+    <platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="Retriever">
+				<param name="ios-package" value="Retriever" />
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+		<header-file src="src/ios/AppDelegate+custom.h" />
+		<source-file src="src/ios/AppDelegate+custom.m" />
+		<source-file src="src/ios/Retriever.m" />
+		<source-file src="src/ios/Retriever.m" />
+	</platform>
+</plugin>
