@@ -2,7 +2,7 @@
 
 @interface Retriever : CDVPlugin
 
-- (void)getPrefValue:(CDVInvokedUrlCommand*)command;
+- (void)getValue:(CDVInvokedUrlCommand*)command;
 - (void)clearValue:(CDVInvokedUrlCommand*)command;
 
 @end
