@@ -18,7 +18,6 @@
     [defaults setValue:[url absoluteString] forKey:@"customUrlTemp"];
     
     [defaults synchronize];
-    NSLog(@"%@", [[NSUserDefaults standardUserDefaults] dictionaryRepresentation]);
     
     return true;
 }

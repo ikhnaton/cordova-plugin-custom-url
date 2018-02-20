@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-custom-url",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin to pass a value when",
   "cordova": {
     "id": "cordova-plugin-custom-url",
