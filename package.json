@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-custom-url",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to pass a value when",
   "cordova": {
     "id": "cordova-plugin-custom-url",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ikhnaton/cordova-plugin-custom-url.git"
+    "url": "git+https://github.com/ikhnaton/cordova-plugin-custom-url.git"
   },
   "keywords": [
     "ecosystem:cordova",
